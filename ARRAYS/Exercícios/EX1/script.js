@@ -1,6 +1,6 @@
 const estojo = [];
 
-addItem = prompt("Digite um item para adicionar ao estojo:");
+let addItem = prompt("Digite um item para adicionar ao estojo:");
 
 estojo.push(addItem);
 
