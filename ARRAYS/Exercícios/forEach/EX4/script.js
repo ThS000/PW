@@ -12,4 +12,3 @@ alunos.forEach((aluno) => {
         console.log("Aluno: " + aluno.nome + " reprovado");
     }
 });
-
