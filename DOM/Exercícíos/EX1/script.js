@@ -1,6 +1,3 @@
-const button = document.querySelector("#botao");
 const titulo = document.querySelector("#titulo");
+titulo.textContent = "Hello World!";
 
-botao.addEventListener("click", () => {
-  titulo.textContent = "Mudou!";
-});
