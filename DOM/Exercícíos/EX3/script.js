@@ -1,16 +1,4 @@
-const input = document.querySelector("#inputTarefa");
-const button = document.querySelector("#btnAdicionar");
-const ul = document.querySelector("#lista");
+const div = document.querySelector("#caixa");
 
-const arrayVazio = [];
-
-button.addEventListener("click", () => {
-
-  ul.innerHTML = "";
-
-  const valorInput = input.value;
-
-  arrayVazio.push(valorInput);
-
-  input.innerHTML = "";
-});
+div.classList.add('ativa');
+div.classList.remove('inativa');
